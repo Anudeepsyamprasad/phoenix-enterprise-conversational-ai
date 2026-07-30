@@ -113,3 +113,27 @@ Clearly defining business requirements before implementation provides better arc
 - [ ] API Documentation
 - [ ] Deployment Guide
 - [ ] User Guide
+
+## Day 3 - Local Development Environment Setup
+**Date:** 30 July 2026
+
+### Completed
+- Installed Apache Maven 3.9.16 and configured MAVEN_HOME.
+- Verified Java 21 and Maven installation.
+- Installed PostgreSQL 18 and configured the psql command-line tool.
+- Created the project database `phoenix_db`.
+- Created the application database user `phoenix_user`.
+- Granted required privileges on the project database.
+- Installed Docker Desktop.
+- Configured Docker with WSL2.
+- Verified Docker Engine using the `hello-world` container.
+- Verified Docker Compose installation.
+
+### Outcome
+The local development environment is fully configured and ready for backend implementation.
+
+### Next Steps
+- Generate the Spring Boot project.
+- Configure the backend project structure.
+- Connect Spring Boot to PostgreSQL.
+- Implement the first REST API endpoint.
