@@ -158,3 +158,21 @@ Achievements:
 Current Status:
 Backend foundation completed successfully.
 Ready to begin domain-driven implementation.
+
+## Phase 2 - Backend Architecture
+**Date:** 04 August 2026
+
+**Completed**
+- Implemented generic `ApiResponse<T>` wrapper
+- Added `HealthService` to separate business logic from controllers
+- Refactored `HealthController` to use dependency injection
+- Added `GlobalExceptionHandler` using `@ControllerAdvice`
+- Standardized REST API response format
+
+**Key concepts learned**
+- Layered Architecture
+- Dependency Injection
+- Service Layer
+- Generic Classes
+- Global Exception Handling
+- API Response Standardization
